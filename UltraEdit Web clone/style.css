@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+}
+
+nav{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.UE {
+    margin: 20px 0px 0px 155px;
+    height: 55px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.a {
+    margin-right: 250px;
+}
+
+ /* main section */
+
+ .heading {
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading p {
+    font-size: 50px;
+    margin: 50px 0px 0px 40px;
+
+}
+
+.rev {
+    height: 30px;
+    margin: 50px 0px 0px 30px;
+}
+
+.heading-2 {
+    height: 25vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-2 h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    word-spacing: 4px;
+}
+
+.one {
+    margin-top: 80px;
+}
+
+.DOWNLOAD-MAC-btn {
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color:#09a6bd;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 220px;
+}
+
+.box {
+    height: 180px;
+    width: 280px;
+    background-color: rgb(249, 244, 244);  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+     margin-top: 60px;
+}
+
+.btn32 {
+    background-color: #00B6D1;
+    padding: 11px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+}
+.btn64 {
+    background-color: #5CB85C;
+    padding:11px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+}
+
+/* footer  */
+
+footer {
+    background-color: #222222;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-text {
+    background-color: #222222;
+    color: white;
+    height: 200px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 150px;
+    margin-top: 150px;
+}
+
+.f-text h2{
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.f-text p {
+    line-height: 20px;
+}
+
+.sign-up {
+    background-color: #ffffff;
+    color: white;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sign-up p {
+    color: #00B6D1;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.email-le {
+    color: black;
+    margin-top: 20px;
+}
+
+.sign-up input {
+    height: 50px;
+    width: 300px;
+    border: 1px solid rgb(218, 214, 214);
+}
+
+.s-up-btn {
+    padding: 15px 120px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #00B6D1;
+    font-size: 16px;
+}
+
+.some-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    line-height: 35px;
+}
+
+.some-text p {
+    font-size: 17px;
+}
+
+.some-text a {
+    color: #00B6D1;
+    text-decoration: none;
+}
+
+.last {
+    background-color: rgb(255, 255, 255);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bin {
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    padding: 30px;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+}
+
+.language p {
+    color: #222222;
+    line-height: 25px;
+}
+
+.e-address {
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 150, 150);
+}
+
+.tx-head {
+    font-weight: bolder;
+    line-height: 50px;
+    font-size: 17px;
+}
+
+.e-btn {
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    background-color: #00B6D1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
